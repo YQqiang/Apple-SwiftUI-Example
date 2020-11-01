@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LandmarkList: View {
-    @EnvironmentObject var userData: UserData
+    @EnvironmentObject private var userData: UserData
     
     var body: some View {
         NavigationView {
@@ -19,7 +19,7 @@ struct LandmarkList: View {
                     Text("Favorites only")
                 })
                 
-                ForEach(landmarkData) { landmark in
+                ForEach(userData.landmarks) { landmark in
                     if !self.userData.showFavoritesOnly || landmark.isFavorite {
                         NavigationLink(
                             destination: LandmarkDetail(landmark: landmark)
