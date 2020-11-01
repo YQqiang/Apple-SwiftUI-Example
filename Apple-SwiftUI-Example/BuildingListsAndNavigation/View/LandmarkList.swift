@@ -8,14 +8,26 @@
 import SwiftUI
 
 struct LandmarkList: View {
+    @State var showFavoritesOnly: Bool = true
+    
     var body: some View {
         NavigationView {
-            List(landmarkData) { landmark in
-                NavigationLink(
-                    destination: LandmarkDetail(landmark: landmark),
-                    label: {
-                        LandmarkRow(landmark: landmark)
-                    })
+            // To combine static and dynamic views in a list, or to combine two or more different groups of dynamic views, use the ForEach type instead of passing your collection of data to List.
+            List {
+                // You use the $ prefix to access a binding to a state variable, or one of its properties.
+                Toggle(isOn: $showFavoritesOnly, label: {
+                    Text("Favorites only")
+                })
+                
+                ForEach(landmarkData) { landmark in
+                    if !self.showFavoritesOnly || landmark.isFavorite {
+                        NavigationLink(
+                            destination: LandmarkDetail(landmark: landmark),
+                            label: {
+                                LandmarkRow(landmark: landmark)
+                            })
+                    }
+                }
             }
             .navigationBarTitle(Text("Landmarks"))
         }
@@ -25,7 +37,8 @@ struct LandmarkList: View {
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
         ForEach(["iPhone SE", "iPhone XS Max", "iPad pro(9.7-inch)"], id: \.self) {
-            LandmarkList().previewDevice(PreviewDevice(rawValue: $0))
+            LandmarkList()
+                .previewDevice(PreviewDevice(rawValue: $0))
                 .previewDisplayName($0)
         }
     }
