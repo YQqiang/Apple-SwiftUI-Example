@@ -28,6 +28,12 @@ struct Landmark: Hashable, Codable {
     }
 }
 
+extension Landmark {
+    var image: Image {
+        ImageStroe.shared.image(name: imageName)
+    }
+}
+
 struct Coordinates: Hashable, Codable {
     var latitude: Double
     var longitude: Double

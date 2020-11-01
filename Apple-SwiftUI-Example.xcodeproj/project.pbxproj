@@ -123,9 +123,9 @@
 		4585E52C254E769600DA98D2 /* BuildingListsAndNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				4585E533254E9FB800DA98D2 /* Model */,
 				4585E562254EA1FB00DA98D2 /* View */,
 				4585E53E254EA18B00DA98D2 /* Resources */,
-				4585E533254E9FB800DA98D2 /* Model */,
 			);
 			path = BuildingListsAndNavigation;
 			sourceTree = "<group>";
