@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4585E528254E75FF00DA98D2 /* CombiningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4585E527254E75FF00DA98D2 /* CombiningView.swift */; };
 		F7AC74AD254AFDBF00F3B648 /* Apple_SwiftUI_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC74AC254AFDBF00F3B648 /* Apple_SwiftUI_ExampleApp.swift */; };
 		F7AC74AF254AFDBF00F3B648 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC74AE254AFDBF00F3B648 /* ContentView.swift */; };
 		F7AC74B1254AFDC000F3B648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AC74B0254AFDC000F3B648 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4585E527254E75FF00DA98D2 /* CombiningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombiningView.swift; sourceTree = "<group>"; };
 		F7AC74A9254AFDBF00F3B648 /* Apple-SwiftUI-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple-SwiftUI-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AC74AC254AFDBF00F3B648 /* Apple_SwiftUI_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_SwiftUI_ExampleApp.swift; sourceTree = "<group>"; };
 		F7AC74AE254AFDBF00F3B648 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				F7AC74DA254B033F00F3B648 /* CircleImage.swift */,
 				F7AC74DF254B055700F3B648 /* MapView.swift */,
+				4585E527254E75FF00DA98D2 /* CombiningView.swift */,
 			);
 			path = CreatingAndCombiningViews;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				F7AC74E0254B055700F3B648 /* MapView.swift in Sources */,
 				F7AC74AD254AFDBF00F3B648 /* Apple_SwiftUI_ExampleApp.swift in Sources */,
 				F7AC74DB254B033F00F3B648 /* CircleImage.swift in Sources */,
+				4585E528254E75FF00DA98D2 /* CombiningView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
