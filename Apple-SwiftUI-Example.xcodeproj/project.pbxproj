@@ -33,6 +33,7 @@
 		F7EDD9A6254EE3DA00BC8081 /* stmarylake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7EDD999254EE3DA00BC8081 /* stmarylake.jpg */; };
 		F7EDD9A7254EE3DA00BC8081 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7EDD99A254EE3DA00BC8081 /* chilkoottrail.jpg */; };
 		F7EDD9A8254EE3DA00BC8081 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7EDD99B254EE3DA00BC8081 /* rainbowlake.jpg */; };
+		F7EDD9AD254EE90400BC8081 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EDD9AC254EE90400BC8081 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		F7EDD999254EE3DA00BC8081 /* stmarylake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake.jpg; sourceTree = "<group>"; };
 		F7EDD99A254EE3DA00BC8081 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		F7EDD99B254EE3DA00BC8081 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
+		F7EDD9AC254EE90400BC8081 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			children = (
 				4585E534254E9FD100DA98D2 /* Landmark.swift */,
 				4585E56C254EA2BF00DA98D2 /* Data.swift */,
+				F7EDD9AC254EE90400BC8081 /* UserData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				4585E528254E75FF00DA98D2 /* LandmarkDetail.swift in Sources */,
 				4585E564254EA20500DA98D2 /* LandmarkRow.swift in Sources */,
 				4585E535254E9FD100DA98D2 /* Landmark.swift in Sources */,
+				F7EDD9AD254EE90400BC8081 /* UserData.swift in Sources */,
 				4585E56D254EA2BF00DA98D2 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

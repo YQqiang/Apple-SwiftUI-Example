@@ -12,6 +12,7 @@ struct Apple_SwiftUI_ExampleApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(UserData())
         }
     }
 }

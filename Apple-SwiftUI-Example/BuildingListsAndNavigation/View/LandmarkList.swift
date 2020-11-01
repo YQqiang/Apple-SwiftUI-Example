@@ -8,21 +8,22 @@
 import SwiftUI
 
 struct LandmarkList: View {
-    @State var showFavoritesOnly: Bool = true
+    @EnvironmentObject var userData: UserData
     
     var body: some View {
         NavigationView {
             // To combine static and dynamic views in a list, or to combine two or more different groups of dynamic views, use the ForEach type instead of passing your collection of data to List.
             List {
                 // You use the $ prefix to access a binding to a state variable, or one of its properties.
-                Toggle(isOn: $showFavoritesOnly, label: {
+                Toggle(isOn: $userData.showFavoritesOnly, label: {
                     Text("Favorites only")
                 })
                 
                 ForEach(landmarkData) { landmark in
-                    if !self.showFavoritesOnly || landmark.isFavorite {
+                    if !self.userData.showFavoritesOnly || landmark.isFavorite {
                         NavigationLink(
-                            destination: LandmarkDetail(landmark: landmark),
+                            destination: LandmarkDetail(landmark: landmark)
+                                .environmentObject(self.userData),
                             label: {
                                 LandmarkRow(landmark: landmark)
                             })
