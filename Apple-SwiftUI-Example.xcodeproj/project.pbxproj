@@ -76,6 +76,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4585E523254E712200DA98D2 /* CreatingAndCombiningViews */ = {
+			isa = PBXGroup;
+			children = (
+				F7AC74DA254B033F00F3B648 /* CircleImage.swift */,
+				F7AC74DF254B055700F3B648 /* MapView.swift */,
+			);
+			path = CreatingAndCombiningViews;
+			sourceTree = "<group>";
+		};
 		F7AC74A0254AFDBF00F3B648 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +108,9 @@
 		F7AC74AB254AFDBF00F3B648 /* Apple-SwiftUI-Example */ = {
 			isa = PBXGroup;
 			children = (
-				F7AC74AC254AFDBF00F3B648 /* Apple_SwiftUI_ExampleApp.swift */,
 				F7AC74AE254AFDBF00F3B648 /* ContentView.swift */,
-				F7AC74DA254B033F00F3B648 /* CircleImage.swift */,
-				F7AC74DF254B055700F3B648 /* MapView.swift */,
+				4585E523254E712200DA98D2 /* CreatingAndCombiningViews */,
+				F7AC74AC254AFDBF00F3B648 /* Apple_SwiftUI_ExampleApp.swift */,
 				F7AC74B0254AFDC000F3B648 /* Assets.xcassets */,
 				F7AC74B5254AFDC000F3B648 /* Info.plist */,
 				F7AC74B2254AFDC000F3B648 /* Preview Content */,
