@@ -34,6 +34,8 @@
 		F7EDD9A7254EE3DA00BC8081 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7EDD99A254EE3DA00BC8081 /* chilkoottrail.jpg */; };
 		F7EDD9A8254EE3DA00BC8081 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7EDD99B254EE3DA00BC8081 /* rainbowlake.jpg */; };
 		F7EDD9AD254EE90400BC8081 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EDD9AC254EE90400BC8081 /* UserData.swift */; };
+		F7EDD9B425503B7D00BC8081 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EDD9B325503B7D00BC8081 /* Badge.swift */; };
+		F7EDD9B925503BDE00BC8081 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EDD9B825503BDE00BC8081 /* HexagonParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		F7EDD99A254EE3DA00BC8081 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		F7EDD99B254EE3DA00BC8081 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
 		F7EDD9AC254EE90400BC8081 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		F7EDD9B325503B7D00BC8081 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		F7EDD9B825503BDE00BC8081 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,7 @@
 		F7AC74AB254AFDBF00F3B648 /* Apple-SwiftUI-Example */ = {
 			isa = PBXGroup;
 			children = (
+				F7EDD9B225503B5E00BC8081 /* DrawingPathsAndShapes */,
 				4585E523254E712200DA98D2 /* CreatingAndCombiningViews */,
 				4585E52C254E769600DA98D2 /* BuildingListsAndNavigation */,
 				F7AC74AE254AFDBF00F3B648 /* ContentView.swift */,
@@ -231,6 +236,15 @@
 				F7EDD99B254EE3DA00BC8081 /* rainbowlake.jpg */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		F7EDD9B225503B5E00BC8081 /* DrawingPathsAndShapes */ = {
+			isa = PBXGroup;
+			children = (
+				F7EDD9B325503B7D00BC8081 /* Badge.swift */,
+				F7EDD9B825503BDE00BC8081 /* HexagonParameters.swift */,
+			);
+			path = DrawingPathsAndShapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -375,8 +389,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7EDD9B925503BDE00BC8081 /* HexagonParameters.swift in Sources */,
 				F7AC74AF254AFDBF00F3B648 /* ContentView.swift in Sources */,
 				F7AC74E0254B055700F3B648 /* MapView.swift in Sources */,
+				F7EDD9B425503B7D00BC8081 /* Badge.swift in Sources */,
 				F7AC74AD254AFDBF00F3B648 /* Apple_SwiftUI_ExampleApp.swift in Sources */,
 				F7AC74DB254B033F00F3B648 /* CircleImage.swift in Sources */,
 				4585E575254EAE2500DA98D2 /* LandmarkList.swift in Sources */,
