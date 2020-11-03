@@ -13,7 +13,7 @@ struct RotatedBadgeSymbol: View {
     var body: some View {
         BadgeSymbol()
             .padding(-60)
-            .rotationEffect(angle, anchor: .center)
+            .rotationEffect(angle, anchor: .bottom)
             
     }
 }
