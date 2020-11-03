@@ -36,6 +36,8 @@
 		F7EDD9AD254EE90400BC8081 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EDD9AC254EE90400BC8081 /* UserData.swift */; };
 		F7EDD9B425503B7D00BC8081 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EDD9B325503B7D00BC8081 /* Badge.swift */; };
 		F7EDD9B925503BDE00BC8081 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EDD9B825503BDE00BC8081 /* HexagonParameters.swift */; };
+		F7EDD9BE25518C0800BC8081 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EDD9BD25518C0800BC8081 /* BadgeBackground.swift */; };
+		F7EDD9C325518C3C00BC8081 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EDD9C225518C3C00BC8081 /* BadgeSymbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +93,8 @@
 		F7EDD9AC254EE90400BC8081 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		F7EDD9B325503B7D00BC8081 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		F7EDD9B825503BDE00BC8081 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		F7EDD9BD25518C0800BC8081 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		F7EDD9C225518C3C00BC8081 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +246,8 @@
 			isa = PBXGroup;
 			children = (
 				F7EDD9B325503B7D00BC8081 /* Badge.swift */,
+				F7EDD9C225518C3C00BC8081 /* BadgeSymbol.swift */,
+				F7EDD9BD25518C0800BC8081 /* BadgeBackground.swift */,
 				F7EDD9B825503BDE00BC8081 /* HexagonParameters.swift */,
 			);
 			path = DrawingPathsAndShapes;
@@ -396,7 +402,9 @@
 				F7AC74AD254AFDBF00F3B648 /* Apple_SwiftUI_ExampleApp.swift in Sources */,
 				F7AC74DB254B033F00F3B648 /* CircleImage.swift in Sources */,
 				4585E575254EAE2500DA98D2 /* LandmarkList.swift in Sources */,
+				F7EDD9C325518C3C00BC8081 /* BadgeSymbol.swift in Sources */,
 				4585E528254E75FF00DA98D2 /* LandmarkDetail.swift in Sources */,
+				F7EDD9BE25518C0800BC8081 /* BadgeBackground.swift in Sources */,
 				4585E564254EA20500DA98D2 /* LandmarkRow.swift in Sources */,
 				4585E535254E9FD100DA98D2 /* Landmark.swift in Sources */,
 				F7EDD9AD254EE90400BC8081 /* UserData.swift in Sources */,
