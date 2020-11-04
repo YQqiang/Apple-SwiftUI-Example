@@ -10,6 +10,7 @@ import SwiftUI
 import CoreLocation
 
 let landmarkData: [Landmark] = load("landmarkData.json")
+let hikeData: [Hike] = load("hikeData.json")
 
 func load<T: Decodable>(_ fileName: String) -> T {
     let data: Data
@@ -33,8 +34,8 @@ func load<T: Decodable>(_ fileName: String) -> T {
 final class ImageStore {
     typealias _ImageDictionary = [String: CGImage]
     fileprivate var images: _ImageDictionary = [:]
-    
-    static var scale = 2
+
+    fileprivate static var scale = 2
     
     static var shared = ImageStore()
     
@@ -49,7 +50,7 @@ final class ImageStore {
         return image
     }
     
-    func _guaranteeImage(name: String) -> _ImageDictionary.Index {
+    fileprivate func _guaranteeImage(name: String) -> _ImageDictionary.Index {
         if let index = images.index(forKey: name) { return index }
         
         images[name] = ImageStore.loadImage(name: name)
