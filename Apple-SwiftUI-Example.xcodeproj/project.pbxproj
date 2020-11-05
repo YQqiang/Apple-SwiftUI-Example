@@ -25,6 +25,7 @@
 		F7AC74CA254AFDC000F3B648 /* Apple_SwiftUI_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC74C9254AFDC000F3B648 /* Apple_SwiftUI_ExampleUITests.swift */; };
 		F7AC74DB254B033F00F3B648 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC74DA254B033F00F3B648 /* CircleImage.swift */; };
 		F7AC74E0254B055700F3B648 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC74DF254B055700F3B648 /* MapView.swift */; };
+		F7E62C452554432300EEBE1C /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E62C442554432300EEBE1C /* HikeDetail.swift */; };
 		F7EDD99C254EE3DA00BC8081 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7EDD98F254EE3DA00BC8081 /* charleyrivers.jpg */; };
 		F7EDD99D254EE3DA00BC8081 /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7EDD990254EE3DA00BC8081 /* turtlerock.jpg */; };
 		F7EDD99E254EE3DA00BC8081 /* silversalmoncreek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F7EDD991254EE3DA00BC8081 /* silversalmoncreek.jpg */; };
@@ -88,6 +89,7 @@
 		F7AC74CB254AFDC000F3B648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7AC74DA254B033F00F3B648 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		F7AC74DF254B055700F3B648 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F7E62C442554432300EEBE1C /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		F7EDD98F254EE3DA00BC8081 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 		F7EDD990254EE3DA00BC8081 /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock.jpg; sourceTree = "<group>"; };
 		F7EDD991254EE3DA00BC8081 /* silversalmoncreek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = silversalmoncreek.jpg; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				F7372A232552ED4900DE2BD2 /* HikeView.swift */,
+				F7E62C442554432300EEBE1C /* HikeDetail.swift */,
 				F7372A312552F47100DE2BD2 /* HikeGraph.swift */,
 				F7372A3B2552FB0100DE2BD2 /* GraphCapsule.swift */,
 				F7372A2C2552F2E500DE2BD2 /* Hike.swift */,
@@ -441,6 +444,7 @@
 				F7EDD9AD254EE90400BC8081 /* UserData.swift in Sources */,
 				F7372A3C2552FB0100DE2BD2 /* GraphCapsule.swift in Sources */,
 				4585E56D254EA2BF00DA98D2 /* Data.swift in Sources */,
+				F7E62C452554432300EEBE1C /* HikeDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
