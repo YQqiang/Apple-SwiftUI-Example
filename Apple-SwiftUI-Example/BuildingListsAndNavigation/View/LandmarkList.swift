@@ -11,27 +11,25 @@ struct LandmarkList: View {
     @EnvironmentObject private var userData: UserData
     
     var body: some View {
-        NavigationView {
-            // To combine static and dynamic views in a list, or to combine two or more different groups of dynamic views, use the ForEach type instead of passing your collection of data to List.
-            List {
-                // You use the $ prefix to access a binding to a state variable, or one of its properties.
-                Toggle(isOn: $userData.showFavoritesOnly, label: {
-                    Text("Favorites only")
-                })
-                
-                ForEach(userData.landmarks) { landmark in
-                    if !self.userData.showFavoritesOnly || landmark.isFavorite {
-                        NavigationLink(
-                            destination: LandmarkDetail(landmark: landmark)
-                                .environmentObject(self.userData),
-                            label: {
-                                LandmarkRow(landmark: landmark)
-                            })
-                    }
+        // To combine static and dynamic views in a list, or to combine two or more different groups of dynamic views, use the ForEach type instead of passing your collection of data to List.
+        List {
+            // You use the $ prefix to access a binding to a state variable, or one of its properties.
+            Toggle(isOn: $userData.showFavoritesOnly, label: {
+                Text("Favorites only")
+            })
+            
+            ForEach(userData.landmarks) { landmark in
+                if !self.userData.showFavoritesOnly || landmark.isFavorite {
+                    NavigationLink(
+                        destination: LandmarkDetail(landmark: landmark)
+                            .environmentObject(self.userData),
+                        label: {
+                            LandmarkRow(landmark: landmark)
+                        })
                 }
             }
-            .navigationBarTitle(Text("Landmarks"))
         }
+        .navigationBarTitle(Text("Landmarks"))
     }
 }
 
