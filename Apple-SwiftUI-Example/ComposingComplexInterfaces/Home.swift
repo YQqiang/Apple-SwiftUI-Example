@@ -52,6 +52,7 @@ struct CategoryHome: View {
                         Text("See All")
                     })
             }
+            .listStyle(PlainListStyle())
             .navigationBarTitle(Text("Featured"))
             .navigationBarItems(trailing: profileButton)
             .sheet(isPresented: $showingProfile, content: {
