@@ -41,6 +41,12 @@ struct CategoryHome: View {
                     .frame(height: 200)
                     .clipped()
                     .listRowInsets(EdgeInsets())
+                    .onAppear {
+                        print("FeaturedLandmarks Appear")
+                    }
+                    .onDisappear {
+                        print("FeaturedLandmarks Disappear")
+                    }
                 ForEach(categories.keys.sorted(), id: \.self) { key in
                     CategoryRow(categoryName: key, items: self.categories[key]!)
                 }
@@ -58,6 +64,18 @@ struct CategoryHome: View {
             .sheet(isPresented: $showingProfile, content: {
                 Text("User Profile")
             })
+            .onAppear {
+                print("Category Home Appear")
+            }
+            .onDisappear {
+                print("Category Home Disappear")
+            }
+        }
+        .onAppear {
+            print("Category Home Navigation View Appear")
+        }
+        .onDisappear {
+            print("Category Home Navigation View Disappear")
         }
     }
 }

@@ -16,6 +16,12 @@ struct Apple_SwiftUI_ExampleApp: App {
         WindowGroup {
             ContentView()
                 .environmentObject(UserData())
+                .onAppear {
+                    print("ContentView appear")
+                }
+                .onDisappear {
+                    print("ContentView disappear")
+                }
         }
         .onChange(of: scenePhase) { phase in
             if phase == .active {

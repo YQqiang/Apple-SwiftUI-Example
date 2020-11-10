@@ -30,6 +30,12 @@ struct LandmarkList: View {
             }
         }
         .navigationBarTitle(Text("Landmarks"))
+        .onAppear {
+            print("LandmarkList Appear")
+        }
+        .onDisappear {
+            print("LandmarkList Disappear")
+        }
     }
 }
 
