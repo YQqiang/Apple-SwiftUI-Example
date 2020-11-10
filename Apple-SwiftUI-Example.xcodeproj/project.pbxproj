@@ -17,6 +17,7 @@
 		F7372A322552F47100DE2BD2 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7372A312552F47100DE2BD2 /* HikeGraph.swift */; };
 		F7372A372552F67B00DE2BD2 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = F7372A362552F67B00DE2BD2 /* hikeData.json */; };
 		F7372A3C2552FB0100DE2BD2 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7372A3B2552FB0100DE2BD2 /* GraphCapsule.swift */; };
+		F774EE63255AD45000096607 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F774EE62255AD45000096607 /* ProfileEditor.swift */; };
 		F7AC74AD254AFDBF00F3B648 /* Apple_SwiftUI_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC74AC254AFDBF00F3B648 /* Apple_SwiftUI_ExampleApp.swift */; };
 		F7AC74AF254AFDBF00F3B648 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AC74AE254AFDBF00F3B648 /* ContentView.swift */; };
 		F7AC74B1254AFDC000F3B648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AC74B0254AFDC000F3B648 /* Assets.xcassets */; };
@@ -81,6 +82,7 @@
 		F7372A312552F47100DE2BD2 /* HikeGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		F7372A362552F67B00DE2BD2 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		F7372A3B2552FB0100DE2BD2 /* GraphCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
+		F774EE62255AD45000096607 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		F7AC74A9254AFDBF00F3B648 /* Apple-SwiftUI-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple-SwiftUI-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AC74AC254AFDBF00F3B648 /* Apple_SwiftUI_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_SwiftUI_ExampleApp.swift; sourceTree = "<group>"; };
 		F7AC74AE254AFDBF00F3B648 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -311,6 +313,7 @@
 				F7FA6597255AC43000F618FA /* Profile.swift */,
 				F7FA65A0255AC6B300F618FA /* ProfileHost.swift */,
 				F7FA65A5255AC82200F618FA /* ProfileSummary.swift */,
+				F774EE62255AD45000096607 /* ProfileEditor.swift */,
 				F7FA65AA255ACAD300F618FA /* HikeBadge.swift */,
 			);
 			path = WorkingWithUIControls;
@@ -485,6 +488,7 @@
 				F7FA65A6255AC82200F618FA /* ProfileSummary.swift in Sources */,
 				4585E56D254EA2BF00DA98D2 /* Data.swift in Sources */,
 				F7E62C452554432300EEBE1C /* HikeDetail.swift in Sources */,
+				F774EE63255AD45000096607 /* ProfileEditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

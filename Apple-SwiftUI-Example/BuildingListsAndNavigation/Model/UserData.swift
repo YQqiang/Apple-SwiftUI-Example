@@ -12,4 +12,5 @@ final class UserData: ObservableObject {
     // An observable object needs to publish any changes to its data, so that its subscribers can pick up the change.
     @Published var showFavoritesOnly: Bool = false
     @Published var landmarks = landmarkData
+    @Published var profile = Profile.default
 }
