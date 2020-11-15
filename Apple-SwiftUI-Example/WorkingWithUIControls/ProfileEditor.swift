@@ -36,7 +36,7 @@ struct ProfileEditor: View {
             
             VStack(alignment: .leading, spacing: 20, content: {
                 Text("Goal Date").bold()
-                DatePicker("Goal Date", selection: $profile.goalDate, displayedComponents: .hourAndMinute)
+                DatePicker("Goal Date", selection: $profile.goalDate, displayedComponents: .date)
             })
             .padding(.top)
         }
