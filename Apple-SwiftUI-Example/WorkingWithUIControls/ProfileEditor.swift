@@ -32,6 +32,13 @@ struct ProfileEditor: View {
                 }
                 .pickerStyle(SegmentedPickerStyle())
             }
+            .padding(.top)
+            
+            VStack(alignment: .leading, spacing: 20, content: {
+                Text("Goal Date").bold()
+                DatePicker("Goal Date", selection: $profile.goalDate, displayedComponents: .hourAndMinute)
+            })
+            .padding(.top)
         }
     }
 }
